@@ -15,25 +15,35 @@ public class ListInTree {
     }
 
     public static boolean digui(TreeNode root, ListNode head){
-        if(root.val == head.val){
-            return diguiTrue(root.left,head.next) || diguiTrue(root.right,head.next);
+        if(root == null){
+            return false;
+        }
+        boolean result = false;
 
-        }else {
-            digui(root.left,head);
-            digui(root.right,head);
+        if(root.val == head.val){
+            if(head.next == null){
+                return true;
+            }
+            result = diguiTrue(root.left,head.next) || diguiTrue(root.right,head.next);
+            if(result){
+                return result;
+            }
         }
 
-        return false;
+        result = digui(root.left,head)||digui(root.right,head);
+        return result;
+
     }
 
     public static boolean diguiTrue(TreeNode nextTree,ListNode nextList){
-        if(nextTree == null && nextList == null){
-            return true;
-        }
-        if(nextList == null || nextTree == null){
+        if(nextTree == null){
             return false;
         }
         if(nextList.val == nextTree.val){
+            if(nextList.next == null){
+                return true;
+            }
+
             return diguiTrue(nextTree.left,nextList.next) || diguiTrue(nextTree.right,nextList.next);
         }
         return false;
