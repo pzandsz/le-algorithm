@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/CheckSymmetric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tree/Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/Codec.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\le-algorithm" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.Codec" />
@@ -108,7 +110,7 @@
       <workItem from="1594040057324" duration="760000" />
       <workItem from="1594083345094" duration="2091000" />
       <workItem from="1594091987678" duration="1447000" />
-      <workItem from="1594121081703" duration="663000" />
+      <workItem from="1594121081703" duration="1166000" />
     </task>
     <servers />
   </component>
