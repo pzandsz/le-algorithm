@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/FlipEquivTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,8 @@
       <workItem from="1594040057324" duration="760000" />
       <workItem from="1594083345094" duration="2091000" />
       <workItem from="1594091987678" duration="1447000" />
-      <workItem from="1594121081703" duration="1166000" />
+      <workItem from="1594121081703" duration="2258000" />
+      <workItem from="1594205956504" duration="3032000" />
     </task>
     <servers />
   </component>
