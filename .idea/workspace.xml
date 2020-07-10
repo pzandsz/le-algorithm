@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/AllPossibleFBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/树系列.md" beforeDir="false" afterPath="$PROJECT_DIR$/树系列.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +114,9 @@
       <workItem from="1594091987678" duration="1447000" />
       <workItem from="1594121081703" duration="2258000" />
       <workItem from="1594205956504" duration="4571000" />
-      <workItem from="1594299083289" duration="316000" />
+      <workItem from="1594299083289" duration="372000" />
+      <workItem from="1594370609198" duration="2665000" />
+      <workItem from="1594379952056" duration="1329000" />
     </task>
     <servers />
   </component>
