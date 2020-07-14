@@ -16,7 +16,7 @@ import java.util.*;
  *    4   5
  * 例如上面这棵树序列化结果为 1,2,#,#,3,4,#,#,5,#,#。每棵不同子树的序列化结果都是唯一的。
  *
- *
+ *[2,1,11,11,null,1]
  * @author zengpeng
  */
 public class FindDuplicateSubtrees {
@@ -51,7 +51,7 @@ public class FindDuplicateSubtrees {
             if(treeNode == null){
                 str = str + "#";
             }else {
-                str = str + treeNode.val;
+                str = str + treeNode.val+",";
                 queue.addLast(treeNode.left);
                 queue.addLast(treeNode.right);
             }
