@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/InsertIntoMaxTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/InsertIntoMaxTreeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1594687640523" duration="1506000" />
       <workItem from="1594726514384" duration="1902000" />
       <workItem from="1594774076715" duration="1048000" />
-      <workItem from="1594810588517" duration="1456000" />
+      <workItem from="1594810588517" duration="2288000" />
     </task>
     <servers />
   </component>
@@ -188,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594774083465" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594811083809">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594812481587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594811083809" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594812481587" />
   </component>
   <component name="masterDetails">
     <states>
