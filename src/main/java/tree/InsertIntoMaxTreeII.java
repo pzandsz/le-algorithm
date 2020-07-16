@@ -90,5 +90,10 @@ public class InsertIntoMaxTreeII {
     }
 
 
+    public static void main(String[] args) {
+        System.out.println(Math.pow(1, 2));
+        int a = (int) Math.pow(1, 2);
+
+    }
 
 }

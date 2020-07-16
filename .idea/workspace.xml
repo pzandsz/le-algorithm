@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/InsertIntoMaxTreeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/InsertIntoMaxTreeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/InsertIntoMaxTreeII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="D:\study\le-algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicateSubtrees">
+  <component name="RunManager" selected="Application.InsertIntoMaxTreeII">
     <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.Codec" />
       <module name="le-algorithm" />
@@ -92,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertIntoMaxTreeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InsertIntoMaxTreeII" />
+      <module name="le-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertIntoMaxTreeII" />
         <item itemvalue="Application.FindDuplicateSubtrees" />
         <item itemvalue="Application.Codec" />
       </list>
@@ -135,7 +149,7 @@
       <workItem from="1594687640523" duration="1506000" />
       <workItem from="1594726514384" duration="1902000" />
       <workItem from="1594774076715" duration="1048000" />
-      <workItem from="1594810588517" duration="2288000" />
+      <workItem from="1594810588517" duration="3638000" />
     </task>
     <servers />
   </component>
@@ -151,22 +165,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594774845544" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1594689169671">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1594814695609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594689169671" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1594689169671">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594814695609" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1594814695609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594689169671" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1594689169671">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594814695609" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1594814695609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594689169671" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1594689169671">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594814695609" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1594814695609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594689169671" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594814695609" />
     <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1594085443488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
