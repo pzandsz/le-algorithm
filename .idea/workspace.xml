@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/DelNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redo.md" beforeDir="false" afterPath="$PROJECT_DIR$/redo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,7 @@
       <workItem from="1594810588517" duration="3638000" />
       <workItem from="1594897773474" duration="3856000" />
       <workItem from="1594901648776" duration="70000" />
-      <workItem from="1594947288834" duration="1656000" />
+      <workItem from="1594947288834" duration="1728000" />
     </task>
     <servers />
   </component>
