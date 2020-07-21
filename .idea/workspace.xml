@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/MaxAncestorDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/CountNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +182,7 @@
       <workItem from="1594901648776" duration="70000" />
       <workItem from="1594947288834" duration="1768000" />
       <workItem from="1595239005225" duration="4598000" />
-      <workItem from="1595329337744" duration="919000" />
+      <workItem from="1595329337744" duration="1889000" />
     </task>
     <servers />
   </component>
