@@ -4,7 +4,7 @@ import common.TreeNode;
 
 /**
  * 类说明: 节点与其祖先之间的最大差值
- *
+ * 一个一个节点递归
  * @author zengpeng
  */
 public class MaxAncestorDiff {
