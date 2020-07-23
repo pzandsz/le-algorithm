@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/IsSubStructure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/MinDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/MinDepth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,7 @@
       <workItem from="1595421848722" duration="599000" />
       <workItem from="1595422510792" duration="630000" />
       <workItem from="1595465336972" duration="40000" />
-      <workItem from="1595502059950" duration="595000" />
+      <workItem from="1595502059950" duration="1292000" />
     </task>
     <servers />
   </component>
