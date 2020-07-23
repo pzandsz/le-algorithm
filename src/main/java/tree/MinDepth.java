@@ -22,11 +22,15 @@ public class MinDepth {
 
     public void minDepthDi(TreeNode node,int level){
         if(node == null){
+            return;
+        }
+        if(node.left == null && node.right == null){
             min = Math.min(level,min);
             return;
         }
         minDepthDi(node.left,level+1);
         minDepthDi(node.right,level+1);
+
 
     }
 }
