@@ -6,6 +6,7 @@ import java.util.*;
 
 /**
  * 类说明: 863二叉树中所有距离为K的节点
+ * 构建树的父亲节点
  *
  * @author zengpeng
  */
