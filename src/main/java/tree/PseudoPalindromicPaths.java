@@ -68,6 +68,9 @@ public class PseudoPalindromicPaths {
         if(sum % 2 == 1 && status == 1){
             return true;
         }else {
+            if(sum%2==0&&status==0){
+                return true;
+            }
             return false;
         }
     }

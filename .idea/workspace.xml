@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/PseudoPalindromicPaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/PseudoPalindromicPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/PseudoPalindromicPaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,8 @@
       <workItem from="1595465336972" duration="40000" />
       <workItem from="1595502059950" duration="2651000" />
       <workItem from="1595848861733" duration="1842000" />
-      <workItem from="1595934451947" duration="3775000" />
+      <workItem from="1595934451947" duration="3885000" />
+      <workItem from="1595984396422" duration="8000" />
     </task>
     <servers />
   </component>
