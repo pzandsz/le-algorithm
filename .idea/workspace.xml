@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamic/DeleteAndEarn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamic/DeleteAndEarn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/递归系列.md" beforeDir="false" afterPath="$PROJECT_DIR$/递归系列.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +207,7 @@
       <workItem from="1596176850479" duration="1561000" />
       <workItem from="1596452278265" duration="4489000" />
       <workItem from="1596503612703" duration="706000" />
-      <workItem from="1596538816348" duration="3262000" />
+      <workItem from="1596538816348" duration="3309000" />
     </task>
     <servers />
   </component>
