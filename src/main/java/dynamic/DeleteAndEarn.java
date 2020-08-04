@@ -1,6 +1,5 @@
 package dynamic;
 
-import java.util.ArrayList;
 
 /**
  * 类说明: 740删除与获得点数 （打家劫舍问题变种）
