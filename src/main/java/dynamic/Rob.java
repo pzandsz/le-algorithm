@@ -15,10 +15,19 @@ import java.util.Map;
  *
  * 思路:
  * 递归
+ *    2
+ *  3   4
+ * 5   5
  *
  * @author zengpeng
  */
 public class Rob {
+    public int rob(TreeNode root) {
+      return 0;
+    }
+
+
+
 //    public int rob(TreeNode root) {
 //
 //        if(root == null){
