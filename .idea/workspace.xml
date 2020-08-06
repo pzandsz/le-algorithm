@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/WaysToChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamic/Rob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamic/Rob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <recent name="D:\study\le-algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteAndEarn">
+  <component name="RunManager" selected="Application.WaysToChange">
     <configuration name="Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.Connect" />
       <module name="le-algorithm" />
@@ -132,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathInZigZagTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PathInZigZagTree" />
+    <configuration name="WaysToChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.WaysToChange" />
       <module name="le-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaysToChange" />
         <item itemvalue="Application.DeleteAndEarn" />
         <item itemvalue="Application.Largest1BorderedSquare" />
         <item itemvalue="Application.NumTrees" />
         <item itemvalue="Application.Connect" />
-        <item itemvalue="Application.PathInZigZagTree" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +210,7 @@
       <workItem from="1596503612703" duration="706000" />
       <workItem from="1596538816348" duration="3717000" />
       <workItem from="1596588673489" duration="2632000" />
+      <workItem from="1596712006542" duration="284000" />
     </task>
     <servers />
   </component>
@@ -225,22 +226,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596178431931" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1596543498099">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596629623197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596543498099" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1596543498099">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596629623197" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596629623197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596543498099" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1596543498099">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596629623197" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596629623197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596543498099" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1596543498099">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596629623197" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596629623197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596543498099" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596629623197" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596543498100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
