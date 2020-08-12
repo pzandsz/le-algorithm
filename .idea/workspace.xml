@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/CheckSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/FindMedianSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +213,8 @@
       <workItem from="1596712006542" duration="3292000" />
       <workItem from="1596767128946" duration="2891000" />
       <workItem from="1597059038135" duration="2090000" />
-      <workItem from="1597145053960" duration="1657000" />
+      <workItem from="1597145053960" duration="2106000" />
+      <workItem from="1597193604235" duration="1155000" />
     </task>
     <servers />
   </component>
