@@ -5,7 +5,9 @@ import java.util.Map;
 
 /**
  * 类说明: 零钱兑换
- * 自定而下+备忘录
+ * 自上而下+备忘录
+ *      自上而下:从根节点开始递归
+ *      备忘录:减少递归的代价，也就是剪枝动作z
  * @author zengpeng
  */
 public class CoinChange {
