@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/GetMoneyAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +221,8 @@
       <workItem from="1597193604235" duration="1830000" />
       <workItem from="1597230590127" duration="2462000" />
       <workItem from="1597282063666" duration="252000" />
-      <workItem from="1597317216471" duration="2822000" />
+      <workItem from="1597317216471" duration="3179000" />
+      <workItem from="1597662436888" duration="2784000" />
     </task>
     <servers />
   </component>
