@@ -46,4 +46,19 @@ public class RestoreString {
 
         return res;
     }
+
+    public String restoreString3(String s, int[] indices) {
+        Character[] c= new Character[indices.length];
+        for(int i=0;i<indices.length;i++){
+            c[indices[i]]=s.charAt(i);
+        }
+
+        Arrays.sort(indices);
+        String res="";
+        for(int i=0;i<indices.length;i++){
+            res=res+c[indices[i]];
+        }
+
+        return res;
+    }
 }

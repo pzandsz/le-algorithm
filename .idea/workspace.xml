@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/CountSubstrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sort/RestoreString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/RestoreString.java" afterDir="false" />
     </list>
@@ -223,7 +224,8 @@
       <workItem from="1597282063666" duration="252000" />
       <workItem from="1597317216471" duration="3179000" />
       <workItem from="1597662436888" duration="3851000" />
-      <workItem from="1597751378279" duration="699000" />
+      <workItem from="1597751378279" duration="970000" />
+      <workItem from="1597799011692" duration="147000" />
     </task>
     <servers />
   </component>
