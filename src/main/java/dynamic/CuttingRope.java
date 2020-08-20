@@ -78,16 +78,24 @@ public class CuttingRope {
 
 
     public int cuttingRope1(int n) {
-        if (n == 2 || n == 3)
+        if(n <= 3){
             return n - 1;
-        int res = 1;
-        while (n > 4) {
-            //如果n大于4，我们不停的让他减去3
-            n = n - 3;
-            //计算每段的乘积
-            res = res * 3;
         }
-        return n * res;
+        int b = n % 3, p = 1000000007;
+        long rem = 1, x = 3;
+        for(int a = n / 3 - 1; a > 0; a /= 2) {
+            if(a % 2 == 1){
+                rem = (rem * x) % p;
+            }
+            x = (x * x) % p;
+        }
+        if(b == 0){
+            return (int)(rem * 3 % p);
+        }
+        if(b == 1){
+            return (int)(rem * 4 % p);
+        }
+        return (int)(rem * 6 % p);
     }
 
 
