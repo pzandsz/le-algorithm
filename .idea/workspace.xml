@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dynamic/KConcatenationMaxSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamic/KConcatenationMaxSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +228,7 @@
       <workItem from="1597884743742" duration="3869000" />
       <workItem from="1597922768223" duration="1625000" />
       <workItem from="1598267643035" duration="3014000" />
-      <workItem from="1598353325799" duration="2581000" />
+      <workItem from="1598353325799" duration="2739000" />
     </task>
     <servers />
   </component>
