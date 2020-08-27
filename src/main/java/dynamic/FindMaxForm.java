@@ -30,13 +30,23 @@ public class FindMaxForm {
 
         int zero=0;
         int one=0;
-        for(int i=0;i<strs[index].length();i++){
-            if(strs[index].charAt(i) == '0'){
-                zero++;
-            }else {
-                one++;
+//        for(int i=0;i<strs[index].length();i++){
+//            if(strs[index].charAt(i) == '0'){
+//                zero++;
+//            }else {
+//                one++;
+//            }
+//        }
+        long l = Long.parseLong(strs[index]);
+        while(l>0)
+        {
+            if(l % 2 != 0) {   //用取模获得去除的一位
+                ++one;
             }
+            l /= 2;
         }
+        zero=strs[index].length()-one;
+
         index++;
         if(m-zero < 0 || n-one < 0){
             int maxForm2 = findMaxForm2(strs, index, m, n);
@@ -53,8 +63,64 @@ public class FindMaxForm {
     public static void main(String[] args) {
         FindMaxForm findMaxForm = new FindMaxForm();
 
-        String[] strs = {"11","11","0","0","10","1","1","0","11","1","0","111","11111000","0","11","000","1","1","0","00","1","101","001","000","0","00","0011","0","10000"};
-        System.out.println(findMaxForm.findMaxForm(strs, 90, 66));
+        String[] strs = {"00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01","00","01"};
+        System.out.println(findMaxForm.findMaxFormDiedai(strs, 50, 50));
 
+    }
+
+
+    /**
+     * 迭代解法
+     */
+    public int findMaxFormDiedai(String[] strs, int m, int n) {
+        int[][] dp = new int[strs.length+1][2];
+        String[][] state=new String[strs.length+1][2];
+        state[0][0]=m+"-"+n;
+        state[0][1]=m+"-"+n;
+        for(int i=1;i<=strs.length;i++){
+            dp[i][0] = dp[i-1][0];
+            state[i][0]=state[i - 1][0];
+//            String s1 = canGet(strs[i-1], state[i - 1][0]);
+//            if(s1.equals(state[i - 1][0])){
+//                dp[i][1]=dp[i-1][1];
+//                state[i][0]=s1;
+//            }else {
+//                dp[i][1]=dp[i-1][1]+1;
+//                state[i][0]=s1;
+//            }
+            String s = canGet(strs[i-1], state[i - 1][1]);
+
+            if(s.equals(state[i - 1][1])){
+                dp[i][1]=dp[i-1][1];
+                state[i][1]=s;
+            }else {
+                dp[i][1]=dp[i-1][1]+1;
+                state[i][1]=s;
+            }
+
+            System.out.println(Math.max(dp[i][1],dp[i][0])+","+state[i][1]);
+        }
+        return Math.max(dp[strs.length][0],dp[strs.length][1]);
+    }
+
+    public String canGet(String str,String mn){
+        String[] split = mn.split("-");
+        int m=Integer.parseInt(split[0]);
+        int n=Integer.parseInt(split[1]);
+
+        int zero=0;
+        int one=0;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i) == '0'){
+                zero++;
+            }else {
+                one++;
+            }
+        }
+
+        if(m-zero<0||n-one<0){
+            return mn;
+        }
+        return (m-zero)+"-"+(n-one);
     }
 }
