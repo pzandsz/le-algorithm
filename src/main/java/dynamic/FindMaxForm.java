@@ -29,9 +29,6 @@ public class FindMaxForm {
                 one++;
             }
         }
-
-
-
         return Math.max(findMaxForm2(strs,++index,m,n),findMaxForm2(strs,++index,m-zero,n-one)+1);
 
     }

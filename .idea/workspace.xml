@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/FindMaxForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamic/FindMaxForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamic/FindMaxForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +230,7 @@
       <workItem from="1597922768223" duration="1625000" />
       <workItem from="1598267643035" duration="3014000" />
       <workItem from="1598353325799" duration="3662000" />
-      <workItem from="1598439630386" duration="3795000" />
+      <workItem from="1598439630386" duration="3884000" />
     </task>
     <servers />
   </component>
