@@ -10,6 +10,7 @@ import java.util.HashMap;
  * 解释: 最长的上升子序列是 [2,3,7,101]，它的长度是 4。
  * @author zengpeng
  * 所属类型： i的最优解不仅仅取决于i-1,还取决于i-k
+ * 缓存cache并没有很好的优化程序的性能
  */
 public class LengthOfLIS {
     HashMap<String,Integer> cache =new HashMap<>();
