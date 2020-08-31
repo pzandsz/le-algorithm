@@ -22,20 +22,66 @@ public class LengthOfLIS {
         if(nums.length - index < 1){
             return 0;
         }
+        String key1=index + "" + 1;
         if(nums[index] > max){
-            String key=index + "" + max;
-            Integer integer = cache.get(key);
-            if(integer != null){
-                return integer;
+
+            String key2=index + "" + 2;
+            Integer integer1 = cache.get(key1);
+            Integer integer2 = cache.get(key1);
+
+            if(integer1 != null && integer2 != null){
+                return Math.max(integer1,integer2);
+            }
+            if(integer1 != null){
+                return integer1;
+            }
+            if(integer2 != null){
+                return integer2;
             }
             //选中nums[index] 不选中nums[index]
             int tmp=nums[index];
             index++;
-            int max1 = Math.max(lengthOfLIS2(nums, tmp, index) + 1, lengthOfLIS2(nums, max, index));
-            cache.put(key,max1);
-            return max1;
+            int max1 =lengthOfLIS2(nums, tmp, index) + 1;
+            int max2 = lengthOfLIS2(nums, max, index);
+            cache.put(key1,lengthOfLIS2(nums, tmp, index) + 1);
+            cache.put(key2,lengthOfLIS2(nums, max, index));
+
+            return Math.max(max1,max2);
         }
+
+        Integer integer1 = cache.get(key1);
+        if(integer1 != null){
+            return integer1;
+        }
+
         index++;
-        return lengthOfLIS2(nums,max,index);
+        int i = lengthOfLIS2(nums, max, index);
+        cache.put(key1,i);
+        return i;
     }
+
+
+    /**
+     * 不超时解法
+     */
+    public int lengthOfLIS3(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
+        int[] dp = new int[nums.length];
+        dp[0] = 1;
+        int maxans = 1;
+        for (int i = 1; i < dp.length; i++) {
+            int maxval = 0;
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    maxval = Math.max(maxval, dp[j]);
+                }
+            }
+            dp[i] = maxval + 1;
+            maxans = Math.max(maxans, dp[i]);
+        }
+        return maxans;
+    }
+
 }
