@@ -62,7 +62,23 @@ public class LengthOfLIS {
 
 
     /**
-     * 不超时解法
+     * 不超时解法，自下而上迭代
+     * 思路：定义dp[i]为考虑前i个元素，以第i个数字结尾的最长上升子序列的长度，注意nums[i]必须被选取
+     *
+     * 我们从小到大计算 dp[]数组的值，在计算 dp[i]之前，我们已经计算出 dp[0...i-1]的值，则状态转移方程为：
+     *
+     * dp[i] = max(dp[j]) + 1,其中, 0 <= j < i 且 num[j] < num[i]
+     *
+     * 即考虑往 dp[0…i−1] 中最长的上升子序列后面再加一个 nums[i]。
+     * 由于 dp[j] 代表 nums[0…j] 中以nums[j] 结尾的最长上升子序列，
+     * 所以如果能从 dp[j] 这个状态转移过来，那么nums[i] 必然要大于nums[j]，
+     * 才能将nums[i] 放在nums[j] 后面以形成更长的上升子序列。
+     *
+     * 最后，整个数组的最长上升子序列即所有 dp[i]中的最大值。
+     *
+     * LIS_length = max(dp[i]), 其中 0≤i<n
+
+     *
      */
     public int lengthOfLIS3(int[] nums) {
         if (nums.length == 0) {
@@ -72,6 +88,7 @@ public class LengthOfLIS {
         dp[0] = 1;
         int maxans = 1;
         for (int i = 1; i < dp.length; i++) {
+            //maxval表示前一个的最大值
             int maxval = 0;
             for (int j = 0; j < i; j++) {
                 if (nums[i] > nums[j]) {
@@ -79,6 +96,8 @@ public class LengthOfLIS {
                 }
             }
             dp[i] = maxval + 1;
+
+            //maxans表示0~i组成的数组的最大长度
             maxans = Math.max(maxans, dp[i]);
         }
         return maxans;
