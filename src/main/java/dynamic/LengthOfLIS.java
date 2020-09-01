@@ -77,6 +77,8 @@ public class LengthOfLIS {
      * 最后，整个数组的最长上升子序列即所有 dp[i]中的最大值。
      *
      * LIS_length = max(dp[i]), 其中 0≤i<n
+     *
+     * 状态如何转移,状态转移方程
 
      *
      */
