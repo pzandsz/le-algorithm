@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/FindCheapestPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamic/FindCheapestPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamic/FindCheapestPrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +238,7 @@
       <workItem from="1598921240092" duration="1343000" />
       <workItem from="1598958641202" duration="411000" />
       <workItem from="1599046934127" duration="1338000" />
+      <workItem from="1599134697830" duration="306000" />
     </task>
     <servers />
   </component>
