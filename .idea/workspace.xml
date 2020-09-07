@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/dynamic.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamic/FindCheapestPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamic/FindCheapestPrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591867046242" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/dynamic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +80,7 @@
       <recent name="dynamic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\le-algorithm\src\main\java\dynamic" />
       <recent name="D:\study\le-algorithm" />
     </key>
   </component>
@@ -239,6 +240,7 @@
       <workItem from="1598958641202" duration="411000" />
       <workItem from="1599046934127" duration="1338000" />
       <workItem from="1599134697830" duration="306000" />
+      <workItem from="1599476642150" duration="1434000" />
     </task>
     <servers />
   </component>
