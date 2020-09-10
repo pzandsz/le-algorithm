@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71b90d8-1f8b-4133-b003-739cd39292ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/EventualSafeNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graph/EventualSafeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/EventualSafeNodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +242,7 @@
       <workItem from="1599134697830" duration="306000" />
       <workItem from="1599476642150" duration="2176000" />
       <workItem from="1599563335156" duration="2921000" />
+      <workItem from="1599735757616" duration="1468000" />
     </task>
     <servers />
   </component>
